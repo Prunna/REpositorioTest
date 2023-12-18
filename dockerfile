@@ -1,12 +1,6 @@
 # Start your image with a node base image
 FROM node:18
 
-# The /app directory should act as the main application directory
-WORKDIR /app
-
-
-
-
 # Install node packages, install serve, build the app, and remove dependencies at the end
 RUN npm install 
 
