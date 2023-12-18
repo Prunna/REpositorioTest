@@ -1,9 +1,6 @@
 # Start your image with a node base image
 FROM node:18
 
-# Install node packages, install serve, build the app, and remove dependencies at the end
-RUN npm install 
-
 #COpy
 COPY . .
 
